@@ -11,14 +11,14 @@ class GameRoom : AbstractVerticle {
 
     var consumer = eb.consumer<Any>("room.gameroom")
     consumer.handler({ message ->
-      println("gameroom收到了信息: ${message.body()}")
+      println("默认频道收到了信息: ${message.body()}")
       vertx.deployVerticle("top.litop.ptgameback.room.GameRoom")
     })
     consumer.completionHandler({ res ->
       if (res.succeeded()) {
-        println("gameroom注册成功")
+        println("默认频道注册成功")
       } else {
-        println("gameroom注册失败!")
+        println("默认频道注册失败!")
       }
     })
   }
