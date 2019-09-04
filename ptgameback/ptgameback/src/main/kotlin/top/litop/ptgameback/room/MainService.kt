@@ -2,10 +2,11 @@ package top.litop.ptgameback.room
 
 import io.vertx.core.AbstractVerticle
 
-class Room : AbstractVerticle {
-  constructor(){
+class MainService : AbstractVerticle {
+  constructor() {
 
   }
+
   override fun start() {
     var eb = vertx.eventBus()
 
@@ -16,7 +17,7 @@ class Room : AbstractVerticle {
     consumer.completionHandler({ res ->
       if (res.succeeded()) {
         println("服务器注册成功")
-        vertx.deployVerticle("top.litop.ptgameback.room.GameRoom")
+        vertx.deployVerticle("top.litop.ptgameback.room.GameChannel")
       } else {
         println("服务器注册失败!")
       }

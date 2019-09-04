@@ -4,7 +4,7 @@ import io.vertx.core.AbstractVerticle
 
 class MainVerticle : AbstractVerticle() {
   override fun start(){
-    vertx.deployVerticle("top.litop.ptgameback.room.Room")
+    vertx.deployVerticle("top.litop.ptgameback.room.MainService")
   }
   override fun stop(){
 
