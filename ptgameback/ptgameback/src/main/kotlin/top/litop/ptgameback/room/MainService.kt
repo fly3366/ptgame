@@ -17,6 +17,7 @@ class MainService : AbstractVerticle {
     consumer.completionHandler({ res ->
       if (res.succeeded()) {
         println("服务器注册成功")
+        var opt = deploymentOptions(instances = 4)
         vertx.deployVerticle("top.litop.ptgameback.room.GameChannel")
       } else {
         println("服务器注册失败!")
