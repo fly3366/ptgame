@@ -6,7 +6,7 @@ import top.litop.ptgameback.config.ChannelConfig
 class GameChannel : AbstractVerticle {
   lateinit var gameChannelConfig: ChannelConfig
   var isReady: Boolean
-  lateinit var gameEventMap: MutableMap<String, MessageConsumer<Any>>
+  lateinit var gameEventMap: MutableMap<String, Any>
 
   constructor() {
     this.isReady = false
@@ -38,6 +38,7 @@ class GameChannel : AbstractVerticle {
         println(this.getGameChannelConfig() + "频道" + roomId + "房间注册失败!")
       }
     })
+    this.gameEventMap.put(roomId,gameRoomEventLine)
   }
 
   override fun start() {
@@ -62,6 +63,6 @@ class GameChannel : AbstractVerticle {
   }
 
   override fun stop() {
-//    println(this.getGameChannelConfig() + "频道注册失败!")
+    println(this.getGameChannelConfig() + "频道已关闭!")
   }
 }
