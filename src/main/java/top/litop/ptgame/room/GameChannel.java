@@ -78,16 +78,6 @@ public class GameChannel extends AbstractVerticle {
                 .put("roomName", "Default")
                 .put("roomId", "R001")
         );
-        vertx.eventBus().publish("channel.A001.push", new JsonObject()
-                .put("option", 1)
-                .put("roomName", "Default")
-                .put("roomId", "R002")
-        );
-        vertx.eventBus().publish("channel.A001.push", new JsonObject()
-                .put("option", 1)
-                .put("roomName", "Default")
-                .put("roomId", "R003")
-        );
     }
 
     @Override

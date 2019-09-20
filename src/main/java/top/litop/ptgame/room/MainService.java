@@ -18,7 +18,7 @@ public class MainService extends AbstractVerticle {
             if (res.succeeded()) {
                 System.out.println("服务器Online");
                 DeploymentOptions initConfig = new DeploymentOptions();
-                initConfig.setInstances(16);
+                initConfig.setInstances(1);
                 vertx.deployVerticle("top.litop.ptgame.room.GameChannel", initConfig);
             } else {
                 System.out.println("服务器Error");
