@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-codegen:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-codegen/4.0.0-SNAPSHOT/1dd9c415b7681b7d3cf579ed823a73fc831d8c9/vertx-codegen-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-codegen/4.0.0-SNAPSHOT/719a39354b0e0178b2e8e6bf6dd3bb348f4a6866/vertx-codegen-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-codegen/4.0.0-SNAPSHOT/b49c294a797c2b8fa8ea70e2779e1cfdd351d1a2/vertx-codegen-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

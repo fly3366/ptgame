@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-health-check:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-health-check/4.0.0-SNAPSHOT/f4f0b0a37b448cb148a7c718fd8521c6774270e3/vertx-health-check-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-health-check/4.0.0-SNAPSHOT/35529081e1e2783da1cd24a0efa73e76643be4cb/vertx-health-check-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-health-check/4.0.0-SNAPSHOT/e7578340aa858f225d85ad740fe1ba14fc57508d/vertx-health-check-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

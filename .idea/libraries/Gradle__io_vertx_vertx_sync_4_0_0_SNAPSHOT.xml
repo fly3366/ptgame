@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-sync:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sync/4.0.0-SNAPSHOT/dd793af24a0d043d2d8caad58fcd3b5ac0f82d8e/vertx-sync-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sync/4.0.0-SNAPSHOT/595535e4cc61082878584a954375c39e9f3fcd3d/vertx-sync-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sync/4.0.0-SNAPSHOT/9bb8c1ef281d361b5fd90b78efe2ad5775d477ff/vertx-sync-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

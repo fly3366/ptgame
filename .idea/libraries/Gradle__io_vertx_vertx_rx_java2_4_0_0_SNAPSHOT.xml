@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-rx-java2:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-rx-java2/4.0.0-SNAPSHOT/e72d3a95d9cae4de42d95730567752fdb38671dd/vertx-rx-java2-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-rx-java2/4.0.0-SNAPSHOT/4822c7ab9791ba8e1c2c3fd62b09123b31addea2/vertx-rx-java2-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-rx-java2/4.0.0-SNAPSHOT/c4afd807949b7f3d148de67de9596f1fc252d61c/vertx-rx-java2-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

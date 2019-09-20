@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-sql-client:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sql-client/4.0.0-SNAPSHOT/327a965946c7686cd38b8c70837fd5aebf07a0d8/vertx-sql-client-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sql-client/4.0.0-SNAPSHOT/d7e95599ddd005f91c463df3c2710640720f22e/vertx-sql-client-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-sql-client/4.0.0-SNAPSHOT/5e70d08b2b90b6ce0548a9e24bc45e80f77380e6/vertx-sql-client-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

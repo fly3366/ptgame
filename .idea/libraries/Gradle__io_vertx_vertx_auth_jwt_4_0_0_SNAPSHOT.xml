@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-auth-jwt:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-jwt/4.0.0-SNAPSHOT/f11e4a301eafb0da114420cd9a89622cb89de889/vertx-auth-jwt-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-jwt/4.0.0-SNAPSHOT/adc6000413df28f724fbc5d38a923f34700e6062/vertx-auth-jwt-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-jwt/4.0.0-SNAPSHOT/7b140259528b2293fe0e0660604f56b30c8c1cfc/vertx-auth-jwt-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-junit5:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-junit5/4.0.0-SNAPSHOT/acbac0da65e04fccb54ef5aca603335298e79a46/vertx-junit5-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-junit5/4.0.0-SNAPSHOT/7dd0047e0d47272de12c44b6cf0a67ca017f54af/vertx-junit5-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-junit5/4.0.0-SNAPSHOT/7747fb979456b34ae79fd4e76e71bd5d74090d62/vertx-junit5-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

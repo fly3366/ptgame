@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-jwt:4.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-jwt/4.0.0-SNAPSHOT/3089a53fab9467cca91290eab7615f3018ac300/vertx-jwt-4.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-jwt/4.0.0-SNAPSHOT/3a5f19529c0199401b5a304edd303a1c3d1aa821/vertx-jwt-4.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-jwt/4.0.0-SNAPSHOT/d6f5bc06dcb8ae818215d328fe57788d21d56f55/vertx-jwt-4.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
