@@ -1,4 +1,0 @@
-/Users/dxk/ptgame/ptgame/ptgameback/ptgameback/src/main/kotlin/top/litop/ptgameback/MainVerticle.kt
-/Users/dxk/ptgame/ptgame/ptgameback/ptgameback/src/main/kotlin/top/litop/ptgameback/room/MainService.kt
-/Users/dxk/ptgame/ptgame/ptgameback/ptgameback/src/main/kotlin/top/litop/ptgameback/room/GameChannel.kt
-/Users/dxk/ptgame/ptgame/ptgameback/ptgameback/src/main/kotlin/top/litop/ptgameback/config/ChannelConfig.kt
