@@ -1,4 +1,4 @@
 package top.litop.ptgame.util.ast;
 
-public class BasicAstTree {
+public class BasicAstTree implements AstTree {
 }
