@@ -58,6 +58,16 @@ public class BasicJsonAstDecode implements AstDecode {
             nextAstForkFlag++;
         }
         localAst.setClientFork(clientFork);
-        return null;
+
+        JsonArray nextAstValue = initJsonObj.getJsonArray("next");
+        int nextAstValueFlag = 0;
+        String nextAstTreeValue[] = new String[nextAstValue.size()];
+        Iterator<Object> nextAstValueIterator = nextAstValue.iterator();
+        while (nextAstValueIterator.hasNext()) {
+            JsonObject next = (JsonObject) nextAstValueIterator.next();
+            nextAstTreeValue[nextAstValueFlag] = next.encode();
+            nextAstValueFlag++;
+        }
+        return new BasicJsonAstTree(localAst, nextAstTreeValue);
     }
 }
