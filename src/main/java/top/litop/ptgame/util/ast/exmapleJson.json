@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "name": "某某杀人案（2人玩家）",
+  "level": 0,
+  "initProps": [
+    {
+      "san": 10
+    },
+    {
+      "san": 10
+    }
+  ],
+  "clientValue": "Welcome，请选择自己的操作",
+  "nextStage": [
+    {
+      "type": 1,
+      "queryEqual": {
+        "equalPlayer": 0,
+        "equalValue": [
+          1
+        ],
+        "equalObject": 5
+      }
+    },
+    {
+      "type": 1,
+      "queryEqual": {
+        "equalPlayer": 1,
+        "equalValue": [
+          1
+        ],
+        "equalObject": 5
+      }
+    }
+  ],
+  "next": [
+    {
+      "version": 1,
+      "name": "testA",
+      "level": -1,
+      "propsValue": [
+      ],
+      "clientValue": "goto A",
+      "nextStage": [
+      ],
+      "next": [
+      ]
+    },
+    {
+      "version": 1,
+      "name": "testB",
+      "level": -1,
+      "propsValue": [
+      ],
+      "clientValue": "goto B",
+      "nextStage": [
+      ],
+      "next": [
+      ]
+    }
+  ]
+}

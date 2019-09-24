@@ -11,6 +11,8 @@ public class BasicJsonAstDecode implements AstDecode {
         final JsonObject initJsonObj = (JsonObject) initValue;
 
 
+        Ast localAst = new BasicAst();
+
         return null;
     }
 }
