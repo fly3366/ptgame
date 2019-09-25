@@ -1,8 +1,11 @@
 package top.litop.ptgame.loop;
 
+import top.litop.ptgame.util.ast.AstDecode;
 import top.litop.ptgame.util.ast.AstTree;
 import top.litop.ptgame.util.ast.BasicJsonAstDecode;
 import top.litop.ptgame.util.swtich.BasicSwitcher;
+
+import java.util.Map;
 
 public class GameLoopStack {
     private PlayerProp[] playersProp;
@@ -13,8 +16,16 @@ public class GameLoopStack {
 
     private AstTree mayNextAstTree;
 
-    public GameLoopStack(AstTree localAstTree) {
-        this.localAstTree = localAstTree;
+    public GameLoopStack(String AstTreeValue) {
+        this.localAstTree = BasicJsonAstDecode.astTreeDecode(AstTreeValue);
+        Map<String, Integer>[] props = localAstTree.getLocalAst().getProps();
+        this.playersProp = new PlayerProp[props.length];
+        int propFlag = 0;
+        for (Map<String, Integer> prop : props) {
+            playersProp[propFlag].setProps(prop);
+            playersProp[propFlag].setPlayerName("player" + propFlag);
+            propFlag++;
+        }
     }
 
     ;
