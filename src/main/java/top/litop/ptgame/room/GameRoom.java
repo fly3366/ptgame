@@ -5,6 +5,7 @@ import io.vertx.core.eventbus.EventBus;
 import io.vertx.core.eventbus.MessageConsumer;
 import io.vertx.core.json.JsonObject;
 import top.litop.ptgame.config.ChannelConfig;
+import top.litop.ptgame.loop.GameLoopStack;
 
 
 public class GameRoom extends AbstractVerticle {
@@ -41,6 +42,79 @@ public class GameRoom extends AbstractVerticle {
             );
             this.roomEvent.handler(message -> {
                 //GameLoop
+                GameLoopStack gameLoopStack = new GameLoopStack("{\n" +
+                        "  \"version\": 1,\n" +
+                        "  \"name\": \"某某杀人案（2人玩家）\",\n" +
+                        "  \"players\": 2,\n" +
+                        "  \"level\": 0,\n" +
+                        "  \"initProps\": [\n" +
+                        "    {\n" +
+                        "      \"san\": 10\n" +
+                        "    },\n" +
+                        "    {\n" +
+                        "      \"san\": 10\n" +
+                        "    }\n" +
+                        "  ],\n" +
+                        "  \"clientValue\": {\n" +
+                        "    \"displayWords\": \"Welcome\",\n" +
+                        "    \"clientMusic\": \"none\"\n" +
+                        "  },\n" +
+                        "  \"nextStage\": [\n" +
+                        "    {\n" +
+                        "      \"type\": 1,\n" +
+                        "      \"displayWords\": \"I choose A\",\n" +
+                        "      \"queryEqual\": {\n" +
+                        "        \"equalPlayer\": 0,\n" +
+                        "        \"equalValue\": [\n" +
+                        "          1\n" +
+                        "        ],\n" +
+                        "        \"equalObject\": 5\n" +
+                        "      }\n" +
+                        "    },\n" +
+                        "    {\n" +
+                        "      \"type\": 1,\n" +
+                        "      \"displayWords\": \"I choose B\",\n" +
+                        "      \"queryEqual\": {\n" +
+                        "        \"equalPlayer\": 1,\n" +
+                        "        \"equalValue\": [\n" +
+                        "          1\n" +
+                        "        ],\n" +
+                        "        \"equalObject\": 5\n" +
+                        "      }\n" +
+                        "    }\n" +
+                        "  ],\n" +
+                        "  \"next\": [\n" +
+                        "    {\n" +
+                        "      \"version\": 1,\n" +
+                        "      \"name\": \"testA\",\n" +
+                        "      \"level\": -1,\n" +
+                        "      \"initProps\": [\n" +
+                        "      ],\n" +
+                        "      \"clientValue\": {\n" +
+                        "        \"displayWords\": \"A end\"\n" +
+                        "      },\n" +
+                        "      \"nextStage\": [\n" +
+                        "      ],\n" +
+                        "      \"next\": [\n" +
+                        "      ]\n" +
+                        "    },\n" +
+                        "    {\n" +
+                        "      \"version\": 1,\n" +
+                        "      \"name\": \"testB\",\n" +
+                        "      \"level\": -1,\n" +
+                        "      \"initProps\": [\n" +
+                        "      ],\n" +
+                        "      \"clientValue\": {\n" +
+                        "        \"displayWords\": \"B end\"\n" +
+                        "      },\n" +
+                        "      \"nextStage\": [\n" +
+                        "      ],\n" +
+                        "      \"next\": [\n" +
+                        "      ]\n" +
+                        "    }\n" +
+                        "  ]\n" +
+                        "}\n");
+
             });
         } else {
 

@@ -1,8 +1,11 @@
 package top.litop.ptgame.util.ast;
 
+import io.vertx.core.AsyncResult;
+import io.vertx.core.Handler;
 import io.vertx.core.json.Json;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import io.vertx.rxjava.core.Promise;
 
 import java.lang.reflect.Array;
 import java.util.HashMap;
@@ -11,8 +14,8 @@ import java.util.Map;
 
 public class BasicJsonAstDecode implements AstDecode {
 
-    @Override
-    public AstTree astTreeDecode(Object value) {
+    public static AstTree astTreeDecode(Object value) {
+
         final Object initValue = Json.decodeValue((String) value);
         final JsonObject initJsonObj = (JsonObject) initValue;
 
@@ -67,7 +70,10 @@ public class BasicJsonAstDecode implements AstDecode {
             JsonObject next = (JsonObject) nextAstValueIterator.next();
             nextAstTreeValue[nextAstValueFlag] = next.encode();
             nextAstValueFlag++;
+
+
         }
+        System.out.println("JSON解析完毕");
         return new BasicJsonAstTree(localAst, nextAstTreeValue);
     }
 }

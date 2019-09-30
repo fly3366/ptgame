@@ -9,4 +9,8 @@ public interface Ast {
     Map<String, Integer> clientPlayerProps[] = null;
     //获取参考选项
     String clientFork[] = null;
+
+    public String[] getNext();
+
+    public Map<String, Integer>[] getProps();
 }

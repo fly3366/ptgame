@@ -1,6 +1,7 @@
 {
   "version": 1,
   "name": "某某杀人案（2人玩家）",
+  "players": 2,
   "level": 0,
   "initProps": [
     {
@@ -10,10 +11,14 @@
       "san": 10
     }
   ],
-  "clientValue": "Welcome，请选择自己的操作",
+  "clientValue": {
+    "displayWords": "Welcome",
+    "clientMusic": "none"
+  },
   "nextStage": [
     {
       "type": 1,
+      "displayWords": "I choose A",
       "queryEqual": {
         "equalPlayer": 0,
         "equalValue": [
@@ -24,6 +29,7 @@
     },
     {
       "type": 1,
+      "displayWords": "I choose B",
       "queryEqual": {
         "equalPlayer": 1,
         "equalValue": [
@@ -38,9 +44,11 @@
       "version": 1,
       "name": "testA",
       "level": -1,
-      "propsValue": [
+      "initProps": [
       ],
-      "clientValue": "goto A",
+      "clientValue": {
+        "displayWords": "A end"
+      },
       "nextStage": [
       ],
       "next": [
@@ -50,9 +58,11 @@
       "version": 1,
       "name": "testB",
       "level": -1,
-      "propsValue": [
+      "initProps": [
       ],
-      "clientValue": "goto B",
+      "clientValue": {
+        "displayWords": "B end"
+      },
       "nextStage": [
       ],
       "next": [
